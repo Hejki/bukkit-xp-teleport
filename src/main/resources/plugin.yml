@@ -1,0 +1,9 @@
+name: XpTeleports
+author: Hejki
+main: org.hejki.bukkit.xpteleport.Plugin
+version: 0.1
+commands:
+  xptp:
+    aliases: [go, tp]
+    description: 'Teleport player to specific location'
+    usage: "Use:\n  '/<command> locationID' teleport to specific location\n  '/<command> list' show list of available teleport locations\n  '/<command> set locationID [description]' set teleport location\n  '/<command> info locationId' show information about location"
